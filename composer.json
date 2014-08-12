@@ -1,0 +1,19 @@
+{
+    "name": "andrebian/brazilian-states",
+    "description": "Um Helper com a lista dos estados brasileiros",
+    "type": "wordpress-plugin",
+    "keywords": ["helper", "brazilian states"],
+    "authors": [
+        {
+            "name": "Andre Cardoso aka andrebian",
+            "email": "andrecardosodev@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/andrebian/br-state-helper",
+    "minimum-stability": "dev",
+    "autoload" : {
+        "psr-0" : {
+            "BrazilianStates\\" : "src/"
+        }
+    }
+}
