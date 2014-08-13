@@ -3,10 +3,12 @@
     "description": "Um Helper para os estados brasileiros",
     "type": "helper",
     "keywords": ["helper", "brazilian states"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Andre Cardoso aka andrebian",
-            "email": "andrecardosodev@gmail.com"
+            "email": "andrecardosodev@gmail.com",
+            "role" : "Author"
         }
     ],
     "homepage": "https://github.com/andrebian/brazilian-states-helper",
