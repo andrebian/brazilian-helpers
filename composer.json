@@ -1,7 +1,7 @@
 {
-    "name": "andrebian/brazilian-states",
-    "description": "Um Helper com a lista dos estados brasileiros",
-    "type": "wordpress-plugin",
+    "name": "andrebian/brazilian-states-helper",
+    "description": "Um Helper para os estados brasileiros",
+    "type": "helper",
     "keywords": ["helper", "brazilian states"],
     "authors": [
         {
@@ -9,11 +9,14 @@
             "email": "andrecardosodev@gmail.com"
         }
     ],
-    "homepage": "https://github.com/andrebian/br-state-helper",
+    "homepage": "https://github.com/andrebian/brazilian-states-helper",
     "minimum-stability": "dev",
     "autoload" : {
         "psr-0" : {
-            "BrazilianStates\\" : "src/"
+            "BrazilianStatesHelper\\" : "src/"
         }
+    },
+    "require" : {
+        "php" : ">5.4"
     }
 }

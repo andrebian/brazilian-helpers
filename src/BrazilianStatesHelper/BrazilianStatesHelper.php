@@ -1,12 +1,11 @@
 <?php
 
-namespace BrazilianStates;
+namespace BrazilianStatesHelper;
 
 
-abstract class BrazilianStates
+abstract class BrazilianStatesHelper
 {
     /**
-     *
      * @var array
      */
     protected static $states = [
