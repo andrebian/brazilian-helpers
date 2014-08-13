@@ -1,6 +1,8 @@
 
 #Brazilian States
 
+[![Latest Stable Version](https://poser.pugx.org/andrebian/brazilian-states-helper/v/stable.svg)](https://packagist.org/packages/andrebian/brazilian-states-helper) [![Total Downloads](https://poser.pugx.org/andrebian/brazilian-states-helper/downloads.svg)](https://packagist.org/packages/andrebian/brazilian-states-helper) [![Latest Unstable Version](https://poser.pugx.org/andrebian/brazilian-states-helper/v/unstable.svg)](https://packagist.org/packages/andrebian/brazilian-states-helper) [![License](https://poser.pugx.org/andrebian/brazilian-states-helper/license.svg)](https://packagist.org/packages/andrebian/brazilian-states-helper)
+
 ##Baixando
 
 Em seu composer.json adicione a seguinte linha em `require`:
