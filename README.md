@@ -1,7 +1,7 @@
 
 #Brazilian Helpers
 
-[![Latest Stable Version](https://poser.pugx.org/andrebian/brazilian-helpers/v/stable.svg)](https://packagist.org/packages/andrebian/brazilian-helpers) [![Total Downloads](https://poser.pugx.org/andrebian/brazilian-helpers/downloads.svg)](https://packagist.org/packages/andrebian/brazilian-helpers) [![Latest Unstable Version](https://poser.pugx.org/andrebian/brazilian-states-helper/v/unstable.svg)](https://packagist.org/packages/andrebian/brazilian-states-helper) [![License](https://poser.pugx.org/andrebian/brazilian-states-helper/license.svg)](https://packagist.org/packages/andrebian/brazilian-helpers)
+[![Latest Stable Version](https://poser.pugx.org/andrebian/brazilian-helpers/v/stable.svg)](https://packagist.org/packages/andrebian/brazilian-helpers) [![Total Downloads](https://poser.pugx.org/andrebian/brazilian-helpers/downloads.svg)](https://packagist.org/packages/andrebian/brazilian-helpers) [![Latest Unstable Version](https://poser.pugx.org/andrebian/brazilian-helpers/v/unstable.svg)](https://packagist.org/packages/andrebian/brazilian-helpers) [![License](https://poser.pugx.org/andrebian/brazilian-helpers/license.svg)](https://packagist.org/packages/andrebian/brazilian-helpers)
 
 
 ----------
