@@ -1,8 +1,8 @@
 {
-    "name": "andrebian/brazilian-states-helper",
-    "description": "Um Helper para os estados brasileiros",
+    "name": "andrebian/brazilian-helpers",
+    "description": "Um coletânea de Helpers brasileiros",
     "type": "helper",
-    "keywords": ["helper", "brazilian states"],
+    "keywords": ["helper", "brazilian helpers"],
     "license": "MIT",
     "authors": [
         {
