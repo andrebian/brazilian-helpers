@@ -41,12 +41,12 @@ class StateHelper
      * 
      * @return string
      */
-    public static function getOptions()
+    public static function getHtmlForSelectElement()
     {
         $options = '';
         
-        foreach (self::$states as $uf => $state) {
-            $options .= '<option value="' . $uf . '">' . $state . '</option>';
+        foreach (self::$states as $shortName => $name) {
+            $options .= '<option value="' . $shortName . '">' . $name . '</option>';
         }
         
         return $options;
@@ -54,17 +54,17 @@ class StateHelper
     
     /**
      * 
-     * @param string $uf
+     * @param string $shortName
      * @return string
      * @throws InvalidArgumentException
      */
-    public static function getStateName( $uf )
+    public static function getStateName( $shortName )
     {
-        if( !array_key_exists($uf, self::$states) ) {
+        if( !array_key_exists($shortName, self::$states) ) {
             throw new \InvalidArgumentException('UF inexistente');
         }
         
-        return self::$states[$uf];
+        return self::$states[$shortName];
     }
     
     /**
