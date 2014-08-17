@@ -15,7 +15,7 @@
     "minimum-stability": "dev",
     "autoload" : {
         "psr-0" : {
-            "BrazilianStatesHelper\\" : "src/"
+            "BrazilianHelper\\" : "src/"
         }
     },
     "require" : {

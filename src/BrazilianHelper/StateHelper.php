@@ -1,9 +1,9 @@
 <?php
 
-namespace BrazilianStatesHelper;
+namespace BrazilianHelper;
 
 
-abstract class BrazilianStatesHelper
+class StateHelper
 {
     /**
      * @var array

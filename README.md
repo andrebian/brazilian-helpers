@@ -1,23 +1,31 @@
 
-#Brazilian States
+#Brazilian Helpers
 
-[![Latest Stable Version](https://poser.pugx.org/andrebian/brazilian-states-helper/v/stable.svg)](https://packagist.org/packages/andrebian/brazilian-states-helper) [![Total Downloads](https://poser.pugx.org/andrebian/brazilian-states-helper/downloads.svg)](https://packagist.org/packages/andrebian/brazilian-states-helper) [![Latest Unstable Version](https://poser.pugx.org/andrebian/brazilian-states-helper/v/unstable.svg)](https://packagist.org/packages/andrebian/brazilian-states-helper) [![License](https://poser.pugx.org/andrebian/brazilian-states-helper/license.svg)](https://packagist.org/packages/andrebian/brazilian-states-helper)
+[![Latest Stable Version](https://poser.pugx.org/andrebian/brazilian-helpers/v/stable.svg)](https://packagist.org/packages/andrebian/brazilian-helpers) [![Total Downloads](https://poser.pugx.org/andrebian/brazilian-helpers/downloads.svg)](https://packagist.org/packages/andrebian/brazilian-helpers) [![Latest Unstable Version](https://poser.pugx.org/andrebian/brazilian-states-helper/v/unstable.svg)](https://packagist.org/packages/andrebian/brazilian-states-helper) [![License](https://poser.pugx.org/andrebian/brazilian-states-helper/license.svg)](https://packagist.org/packages/andrebian/brazilian-helpers)
 
 ##Baixando
 
 Em seu composer.json adicione a seguinte linha em `require`:
 
-```"andrebian/brazilian-states-helper" : "dev-master" ```
+```"andrebian/brazilian-helpers" : "dev-master" ```
 
 
-##Utilizando
+##Utilizando 
+
+```php
+namespace SeuNamespace;
+
+use BrazilianHelper\AlgumHelper as NomeDesejado;
+```   
+
+##ESTADOS BRASILEIROS
 
 ####Declarando o uso do Helper
 
 ```php
 namespace SeuNamespace;
 
-use BrazilianStatesHelper\BrazilianStatesHelper;
+use BrazilianHelper\StateHelper as BrazilianStates;
 ```        
 
 ####Exemplo 1 - Obtendo um array de estados
@@ -25,7 +33,7 @@ use BrazilianStatesHelper\BrazilianStatesHelper;
 
 ```php
 
-BrazilianStatesHelper::getStates();
+BrazilianStates::getStates();
 
 // Saída
 
@@ -63,8 +71,8 @@ array (size=25)
 
 ```php
 
-BrazilianStatesHelper::getStateName('PR');
-BrazilianStatesHelper::getStateName('MG');
+BrazilianStates::getStateName('PR');
+BrazilianStates::getStateName('MG');
 
 // Saída
 Paraná
@@ -76,8 +84,8 @@ Minas Gerais
 
 ```php
 
-BrazilianStatesHelper::getStateShortName('São Paulo');
-BrazilianStatesHelper::getStateShortName('Paraná');
+BrazilianStates::getStateShortName('São Paulo');
+BrazilianStates::getStateShortName('Paraná');
 
 // Saída
 SP
@@ -88,7 +96,7 @@ PR
 
 ```php
 
-BrazilianStatesHelper::getOptions();
+BrazilianStates::getOptions();
 
 //Saída
 '<option value="AC">Acre</option><option value="AL">Alagoas</option><option
