@@ -8,7 +8,7 @@ class DateHelper
      *
      * @var array
      */
-    protected static $daysOfWeekMap = [
+    protected static $daysOfWeekMap = array(
         'sun' => 0,
         'mon' => 1,
         'tue' => 2,
@@ -16,21 +16,21 @@ class DateHelper
         'thu' => 4,
         'fri' => 5,
         'sat' => 6
-    ];
+    );
     
     /**
      *
      * @var array
      */
-    protected static $brazilianDaysOfWeek = [
-        'sun' => ['short' => 'Dom', 'long' => 'Domingo'],
-        'mon' => ['short' => 'Seg', 'long' => 'Segunda-Feira'],
-        'tue' => ['short' => 'Ter', 'long' => 'Terça-Feira'],
-        'wed' => ['short' => 'Qua', 'long' => 'Quarta-Feira'],
-        'thu' => ['short' => 'Qui', 'long' => 'Quinta-Feira'],
-        'fri' => ['short' => 'Sex', 'long' => 'Sexta-Feira'],
-        'sat' => ['short' => 'Sab', 'long' => 'Sábado']
-    ];
+    protected static $brazilianDaysOfWeek = array(
+        'sun' => array('short' => 'Dom', 'long' => 'Domingo'),
+        'mon' => array('short' => 'Seg', 'long' => 'Segunda-Feira'),
+        'tue' => array('short' => 'Ter', 'long' => 'Terça-Feira'),
+        'wed' => array('short' => 'Qua', 'long' => 'Quarta-Feira'),
+        'thu' => array('short' => 'Qui', 'long' => 'Quinta-Feira'),
+        'fri' => array('short' => 'Sex', 'long' => 'Sexta-Feira'),
+        'sat' => array('short' => 'Sab', 'long' => 'Sábado')
+    );
     
     /**
      * Obtém o nome completo do dia da semana

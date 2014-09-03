@@ -8,7 +8,7 @@ class StateHelper
     /**
      * @var array
      */
-    protected static $states = [
+    protected static $states = array(
         'AC' => 'Acre',
         'AL' => 'Alagoas',
         'AP' => 'Amapá',
@@ -34,7 +34,7 @@ class StateHelper
         'SC' => 'Santa Catarina',
         'SP' => 'São Paulo',
         'TO' => 'Tocantins'
-    ];
+    );
 
     /**
      * Monta a estrutura para popular um select
