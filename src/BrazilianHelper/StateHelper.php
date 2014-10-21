@@ -31,6 +31,7 @@ class StateHelper
         'RN' => 'Rio Grande do Norte',
         'RS' => 'Rio Grande do Sul',
         'RO' => 'Roraima',
+        'SE' => 'Sergipe',
         'SC' => 'Santa Catarina',
         'SP' => 'São Paulo',
         'TO' => 'Tocantins'
