@@ -23,7 +23,10 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "rm -rf vendor/andrebian/brazilian-helpers/.git"
+            "echo [WARNING] Delete andrebian .git dirs", "rm -rf vendor/andrebian/brazilian-helpers/.git"
+        ],
+        "post-update-cmd": [
+            "echo [WARNING] Delete andrebian .git dirs", "rm -rf vendor/andrebian/brazilian-helpers/.git"
         ]
     }
     
