@@ -21,7 +21,10 @@
     "require" : {
         "php" : ">5.3.2"
     },
-    "post-install-cmd": [
-        "rm -rf vendor/andrebian/brazilian-helpers/.git"
-    ]
+    "scripts": {
+        "post-install-cmd": [
+            "rm -rf vendor/andrebian/brazilian-helpers/.git"
+        ]
+    }
+    
 }
