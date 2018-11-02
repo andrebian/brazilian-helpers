@@ -13,5 +13,7 @@
         <a href="dates.php">Dates</a>
         <br />
         <a href="cpf-apply-mask.php">CPF - Apply mask</a>
+        <br />
+        <a href="cpf-remove-mask.php">CPF - Remove mask</a>
     </body>
 </html>
