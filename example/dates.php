@@ -2,7 +2,7 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use BrazilianHelper\DateHelper;
+use Andrebian\BrazilianHelpers\Helpers\DateHelper;
 ?>
 
 <html>
@@ -18,7 +18,7 @@ use BrazilianHelper\DateHelper;
         <h4>Importing</h4>
         <pre style="background: #eee;padding:10px">namespace SeuNamespace;
 
-BrazilianHelper\DateHelper;
+use Andrebian\BrazilianHelpers\Helpers\DateHelper;
         </pre>
 
         <h4>Example 1 - Day of week name by its number</h4>

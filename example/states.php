@@ -2,7 +2,7 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use BrazilianHelper\StateHelper as BrazilianStates;
+use Andrebian\BrazilianHelpers\Helpers\StateHelper as BrazilianStates;
 
 ?>
 <html>
@@ -18,7 +18,7 @@ use BrazilianHelper\StateHelper as BrazilianStates;
         <h4>Importing</h4>
         <pre style="background: #eee;padding:10px">namespace App;
 
-use BrazilianHelper\StateHelper as BrazilianStates;
+use Andrebian\BrazilianHelpers\Helpers\StateHelper as BrazilianStates;
         </pre>
         
         <h4>Example 1 - Array</h4>

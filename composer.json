@@ -19,6 +19,9 @@
   "autoload": {
     "psr-0": {
       "BrazilianHelper\\": "src/"
+    },
+    "psr-4": {
+      "Andrebian\\BrazilianHelpers\\": "src/"
     }
   },
   "require": {
