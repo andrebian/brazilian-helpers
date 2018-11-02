@@ -1,32 +1,32 @@
 <?php
-header('Content-Type: text/html; charset=utf-8');
 
-require '../vendor/autoload.php'; 
+require __DIR__ . '/../vendor/autoload.php';
 
 use BrazilianHelper\StateHelper as BrazilianStates;
 
 ?>
 <html>
     <head>
+        <meta name="charset" content="utf8">
         <title>Brazilian Helpers by andrebian</title>
     </head>
     
     <body>
-        <h2>Estados brasileiros</h2> 
-        <a href="/">Voltar</a>
+        <h2>Brazilian states</h2>
+        <a href="/">Back</a>
         
-        <h4>Declarando o uso do Helper</h4>
-        <pre style="background: #eee;padding:10px">namespace SeuNamespace;
+        <h4>Importing</h4>
+        <pre style="background: #eee;padding:10px">namespace App;
 
 use BrazilianHelper\StateHelper as BrazilianStates;
         </pre>
         
-        <h4>Exemplo 1 - Obtendo um array de estados</h4>
+        <h4>Example 1 - Array</h4>
         <pre style="background: #eee;padding:10px">BrazilianStates::getStates();</pre>
         <?php var_dump( BrazilianStates::getStates() ); ?>
         
         <br />
-        <h4>Exemplo 2 - Obtendo o nome de um estado a partir de uma UF</h4>
+        <h4>Example 2 - State by short name</h4>
         <pre style="background: #eee;padding:10px">BrazilianStates::getStateName('PR');
 BrazilianStates::getStateName('MG');</pre>
         <?php echo BrazilianStates::getStateName('PR'); ?>
@@ -34,7 +34,7 @@ BrazilianStates::getStateName('MG');</pre>
         <?php echo BrazilianStates::getStateName('MG'); ?>
         
         <br />
-        <h4>Exemplo 3 - Obtendo a UF a partir de nome</h4>
+        <h4>Example 3 - Short name by state name</h4>
         <pre style="background: #eee;padding:10px">BrazilianStates::getStateShortName('São Paulo');
 BrazilianStates::getStateShortName('Paraná');</pre>
         <?php echo BrazilianStates::getStateShortName('São Paulo'); ?>
@@ -43,7 +43,7 @@ BrazilianStates::getStateShortName('Paraná');</pre>
         
         <br />
         
-        <h4>Exemplo 4 - Obtendo estados como opções para um select</h4>
+        <h4>Example 4 - Select options</h4>
         <pre style="background: #eee;padding:10px;">BrazilianStates::getHtmlForSelectElement();</pre>
         
         <?php var_dump( wordwrap(BrazilianStates::getHtmlForSelectElement(), 100) ); ?>
