@@ -1,10 +1,10 @@
-#Exemplos de utilização
+# Examples
 
 
-[Estados brasileiros][1]
+[Brazilian States][1]
 
-[Datas][2]
+[Dates][2]
 
 
-[1]: https://github.com/andrebian/brazilian-helpers/blob/master/EXEMPLO-ESTADOS.md
-[2]: https://github.com/andrebian/brazilian-helpers/blob/master/EXEMPLO-DATAS.md
+[1]: https://github.com/andrebian/brazilian-helpers/blob/master/EXAMPLE-STATES.md
+[2]: https://github.com/andrebian/brazilian-helpers/blob/master/EXAMPLE-DATES.md

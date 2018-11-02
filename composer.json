@@ -1,33 +1,37 @@
 {
-    "name": "andrebian/brazilian-helpers",
-    "description": "Um coletânea de Helpers brasileiros",
-    "type": "helper",
-    "keywords": ["helper", "brazilian helpers"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Andre Cardoso aka andrebian",
-            "email": "andrecardosodev@gmail.com",
-            "role" : "Author"
-        }
-    ],
-    "homepage": "https://github.com/andrebian/brazilian-states-helper",
-    "minimum-stability": "dev",
-    "autoload" : {
-        "psr-0" : {
-            "BrazilianHelper\\" : "src/"
-        }
-    },
-    "require" : {
-        "php" : ">5.3.2"
-    },
-    "scripts": {
-        "post-install-cmd": [
-            "echo [WARNING] Delete andrebian .git dirs", "rm -rf vendor/andrebian/brazilian-helpers/.git"
-        ],
-        "post-update-cmd": [
-            "echo [WARNING] Delete andrebian .git dirs", "rm -rf vendor/andrebian/brazilian-helpers/.git"
-        ]
+  "name": "andrebian/brazilian-helpers",
+  "description": "A set of common helpers for brazilian things",
+  "type": "helper",
+  "keywords": [
+    "helper",
+    "brazilian helpers"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andre Cardoso",
+      "email": "andrecardosodev@gmail.com",
+      "role": "Author"
     }
-    
+  ],
+  "homepage": "https://github.com/andrebian/brazilian-states-helper",
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-0": {
+      "BrazilianHelper\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">5.3.2"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "echo [WARNING] Delete andrebian .git dirs",
+      "rm -rf vendor/andrebian/brazilian-helpers/.git"
+    ],
+    "post-update-cmd": [
+      "echo [WARNING] Delete andrebian .git dirs",
+      "rm -rf vendor/andrebian/brazilian-helpers/.git"
+    ]
+  }
 }

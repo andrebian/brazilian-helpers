@@ -8,27 +8,27 @@
 ----------
 
 
-Coletânea de helpers para formatos brasileiros
+A set of common helpers for brazilian things
 
 
-##Baixando
+## Installing
 
-Em seu composer.json adicione a seguinte linha em `require`:
-
-```"andrebian/brazilian-helpers" : "dev-master" ```
+Use composer `composer require andrebian/brazilian-helpers`
 
 
-##Utilizando 
+## Usage 
 
 ```php
-namespace SeuNamespace;
+<?php 
 
-use BrazilianHelper\AlgumHelper as NomeDesejado;
+namespace App;
+
+use BrazilianHelper;
 ```   
 
-##Exemplos
+## Examples
 
-[Clique aqui][1]
+[See here][1]
 
 
 [1]: https://github.com/andrebian/brazilian-helpers/blob/master/EXAMPLES.md
