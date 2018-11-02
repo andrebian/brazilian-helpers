@@ -11,5 +11,7 @@
         <a href="states.php">Brazilian States</a>
         <br />
         <a href="dates.php">Dates</a>
+        <br />
+        <a href="cpf-apply-mask.php">CPF - Apply mask</a>
     </body>
 </html>
