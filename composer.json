@@ -24,9 +24,17 @@
       "Andrebian\\BrazilianHelpers\\": "src/"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\Andrebian\\BrazilianHelpers\\": "test/"
+    }
+  },
   "require": {
     "php": ">5.3.2",
     "zendframework/zend-filter": "@stable"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
   },
   "scripts": {
     "post-install-cmd": [
