@@ -22,6 +22,9 @@
             <li>
                 <a href="cnpj-apply-mask.php">CNPJ - Apply mask</a>
             </li>
+            <li>
+                <a href="cnpj-remove-mask.php">CNPJ - Remove mask</a>
+            </li>
         </ul>
     </body>
 </html>
